@@ -1,0 +1,33 @@
+# RTL Synthesis Report
+
+Tool Used:
+- Yosys 0.67
+
+Synthesis Flow
+1. Read Verilog RTL
+2. Hierarchy Check
+3. Process Conversion
+4. Logic Optimization
+5. Technology Mapping
+6. Gate-Level Netlist Generation
+
+## Results
+
+Top Module: alu_scan
+
+Total Cells: 266
+
+Gate Count
+
+- AND : 79
+- OR : 108
+- XOR : 23
+- NOT : 44
+- MUX : 8
+- DFF : 4
+
+Generated Files
+
+- alu_scan_synth.v
+- rtl.png
+- gate.png
